@@ -24,14 +24,4 @@ graph TD
     C -->|Response| B
     B -->|HTTP Response| A
 
-- **AWS Lambda** : Exécute la logique (Node.js 20.x).
-- **API Gateway** : Expose les endpoints REST.
-- **DynamoDB** : Stocke les données utilisateurs.
-- **IAM** : Permissions minimales pour la sécurité.
-- **CloudWatch** : Monitoring des logs.
-
-## Prérequis
-- Compte AWS avec AWS CLI configuré.
-- AWS SAM CLI installé.
-- Node.js 20.x.
 
