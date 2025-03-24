@@ -11,6 +11,7 @@ Une API REST serverless construite avec AWS Lambda, API Gateway et DynamoDB, con
 
 
 ## Architecture
+
 ```mermaid
 graph TD
     A[Client] -->|POST /users| B(API Gateway)
